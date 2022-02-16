@@ -167,14 +167,19 @@ namespace UnityTemplateProjects
         void Update()
         {
             // Exit Sample  
+            // If the game is paused, don't do anything
+            if (PauseMenuBehaviour.paused)
+            {
+            return;
+            }
 
-            if (IsEscapePressed())
+            /*if (IsEscapePressed())
             {
                 Application.Quit();
 				#if UNITY_EDITOR
 				UnityEditor.EditorApplication.isPlaying = false; 
 				#endif
-            }
+            }*/
 
             // Hide and lock cursor when right mouse button pressed
             if (IsRightMouseButtonDown())
