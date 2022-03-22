@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 5319c345c78b1394ea2ac03e9253a88b
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Clicky.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/SpaceWar!.unity
+    guid: 98dc7a63e09a0684bb03428a3622ae58
   m_configObjects: {}
